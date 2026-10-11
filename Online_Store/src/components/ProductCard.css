@@ -62,3 +62,17 @@
 .product-button:hover {
   background-color: #155bb5;
 }
+
+.product-card > a {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.product-card-content {
+  flex-grow: 1;
+}
+
+.product-button {
+  margin: 0 1rem 1rem;
+}
