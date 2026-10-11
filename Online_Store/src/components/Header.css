@@ -1,0 +1,51 @@
+/* Cart badge styling assisted by AI */
+.site-header {
+  background-color: #111827;
+  color: white;
+  padding: 20px 0;
+}
+
+.header-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.store-name {
+  margin: 0;
+  color: #a78bfa;
+  font-size: 1.8rem;
+}
+
+.nav-list {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-list a:hover {
+  color: #a78bfa;
+}
+
+@media (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-list {
+    gap: 15px;
+  }
+}

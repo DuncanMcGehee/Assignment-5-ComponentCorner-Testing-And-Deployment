@@ -1,0 +1,42 @@
+/*ChatGPT (OpenAI) assisted in the creation and polishing of each of the CSS files used*/
+
+.site-footer {
+  background-color: #111827;
+  color: white;
+  padding: 40px 20px 20px;
+  margin-top: 50px;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.footer-container h2,
+.footer-container h3 {
+  color: #a78bfa;
+}
+
+.footer-container p {
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+.copyright {
+  text-align: center;
+  border-top: 1px solid #374151;
+  padding-top: 20px;
+  margin-top: 30px;
+  color: #9ca3af;
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
